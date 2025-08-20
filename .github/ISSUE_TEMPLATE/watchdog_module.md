@@ -1,27 +1,23 @@
 ---
-name: "Watchdog Module Proposal"
-about: Propose a new daemon/honeypot/logging module for GhostWired
-title: "[module] <short-name>"
-labels: enhancement, security
+name: "Watchdog Module: Report or Request"
+about: "Report anomalies, request rules, or propose enhancements"
+labels: ["watchdog", "security", "ipquery"]
 ---
 
-## Module Name
-<short-name>
+## Summary
+Briefly describe the anomaly / request.
 
-## Purpose
-What threat or signal does it detect/entice?
+## Context
+- Source (file/stdin/args):
+- Approx time (UTC):
+- Example IP(s):
 
-## Inputs
-Env vars, CLI flags, external APIs, secrets?
+## Expected Behavior
+What should the guardian do?
 
-## Outputs
-Which log(s) does it write? JSON schema?
+## Actual Behavior
+What happened?
 
-## Risk Model
-What is considered suspicious? Thresholds?
-
-## Test Plan
-Steps + expected JSON sample lines.
-
-## License & Attribution
-Confirm ownership or compatible license.
+## Attachments
+- Relevant JSONL excerpt from `logs/whisper_ipquery.log`
+- Bypass rule suggestion (CIDR/IP)

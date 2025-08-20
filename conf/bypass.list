@@ -1,0 +1,18 @@
+# ---- GhostWired Bypass List ----
+# RFC1918 private ranges
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+# loopback/link-local/multicast ranges are auto-ignored by the guardian,
+# but you can still list your own here:
+127.0.0.0/8
+169.254.0.0/16
+224.0.0.0/4
+
+# sample whitelists (keep if you trust)
+# 1.1.1.1
+# 8.8.8.8
+
+# custom CIDRs for your infra (example)
+# 100.64.0.0/10

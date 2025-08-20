@@ -1,0 +1,3 @@
+conf/guardian.env
+logs/*.log
+!logs/.gitkeep

@@ -1,6 +1,4 @@
-#!/bin/sh
-# Run the guardian for current IP and a known target, then exit.
-set -eu
-BASE="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
-"$BASE/bin/ghostwired_watchdog.sh"
-TARGET_IP=8.8.8.8 "$BASE/bin/ghostwired_watchdog.sh"
+#!/usr/bin/env bash
+# Example cron entry (edit with: crontab -e)
+# Runs every 5 minutes, reading IPs from a feed file:
+# */5 * * * * /bin/bash -lc 'cd "$HOME/GhostWired-IPQuery-Sentinel" && bin/ghostwired_watchdog.sh --file logs/incoming_ips.log >> logs/cron.out 2>&1'
