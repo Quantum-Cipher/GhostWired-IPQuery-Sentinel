@@ -23,3 +23,13 @@ It forms a core layer of the Ghostnode protocol, enhancing cyber-resilience thro
 ---
 
 ## 📂 Project Structure
+├── bin/
+│   ├── ghostwired_watchdog.sh       # Daemon script
+│   └── ipqwery_guardian.py          # IP query guardian
+├── examples/
+│   └── watchdog_cron.sh             # Cron job example
+├── logs/
+│   └── whisper_ipquery.log          # Log output
+├── .github/ISSUE_TEMPLATE/          # Issue template
+├── SIGILTRUST.md                    # Cryptographic authorship log
+└── README.md                        # This file
