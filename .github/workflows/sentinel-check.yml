@@ -1,0 +1,19 @@
+name: Sentinel Log Check
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure logs folder exists
+        run: |
+          if [ ! -d logs ]; then
+            echo "❌ Missing logs folder"
+            exit 1
+          else
+            echo "✅ Logs folder found"
+          fi
