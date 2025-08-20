@@ -1,23 +1,25 @@
-# 🛡️ GhostWired — Watchdog Defense Mirror
+# 🛡️ GhostWired: IPQuery Sentinel
 
-The **GhostWired Watchdog** is Eternum’s zero-trust citadel — a quantum-aware lattice that listens in silence, records in shadow, and answers in light.  
-This mirror carries the sentinels, daemons, and rituals that keep Eternum sovereign.
-
----
-
-## 👁 Protocol: What Lives Here
-- **Perpetual Sentinels** — scan for phantom injections, hostile relays, and AI-linked surveillance anomalies.
-- **Phantom Decoy Daemons** — honeypot illusions that lure and log adversaries.
-- **Self-Evolving Cryptography** — entropy mutations aligned to **23X5X7**.
-- **Liquidity-Aware Defense** — security scales with the **Eternum Liquidity Nexus**.
-- **Immutable Whisper Trails** — logs sealed and archived for eternal proof.
-- **Mycelial Containment Fabric** — threats absorbed, rerouted, and diffused.
+**Quantum-Signed Cybersecurity Daemon**  
+_By Quantum-Cipher (Eternum_Vigilant_Verifier)_
 
 ---
 
-## ⚙️ New: IPQuery Guardian (v1)
-Production-ready integration with **ipquery.io** for IP intelligence.
+## 🔍 Overview
 
-**Run once (current client IP):**
-```sh
-./bin/ghostwired_watchdog.sh
+GhostWired: IPQuery Sentinel is a quantum-signed defensive agent designed to monitor, log, and verify inbound IP queries using decentralized logic.  
+It forms a core layer of the Ghostnode protocol, enhancing cyber-resilience through verifiable transparency.
+
+---
+
+## 🔐 Features
+
+- ⚔️ IP address querying & filtering
+- 📜 GPG-signed commit history (verified by `Quantum-Cipher`)
+- 🔄 Daemon runner scripts (`bin/`)
+- 🧠 Mythic architecture documentation
+- 💾 Log preservation for decentralized storage
+
+---
+
+## 📂 Project Structure
